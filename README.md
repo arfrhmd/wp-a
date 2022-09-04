@@ -1,2 +1,2 @@
-# wp-a
-WordPress Automation
+# WordPress Automation
+> For educational purpose :pray:
