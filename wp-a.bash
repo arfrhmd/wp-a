@@ -13,6 +13,9 @@ function checkPath () {
     elif [[ "$getStatusCode" == 302 ]]; then
         echo -e "\e[38;5;4minfo:\e[0m $url \e[38;5;11m[$getStatusCode] \e[38;5;10mfound, but redirect\e[0m"
         echo "$url" >> found.txt
+    elif [[ "$getStatusCode" == 403 ]]; then
+        echo -e "\e[38;5;4minfo:\e[0m $url \e[38;5;11m[$getStatusCode] \e[38;5;10mfound, but forbidden\e[0m"
+        echo "$url" >> found.txt
     else
         echo -e "\e[38;5;4minfo:\e[0m $url \e[38;5;11m[$getStatusCode] \e[38;5;9mnot found\e[0m"
     fi
