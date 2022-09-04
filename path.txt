@@ -428,3 +428,4 @@
 /wp-admin/admin.php?page=leaguemanager-export/
 /wp-content/plugins/ripe-hd-player/installer.php
 /wp-content/plugins/ripe-hd-player/
+/wp-content/plugins/pie-register-premium/
